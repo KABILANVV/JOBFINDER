@@ -1,0 +1,23 @@
+.admin-home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+
+  
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat-card {
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 120px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin: 10px;
+    color: black;
+    text-align:center;
+}

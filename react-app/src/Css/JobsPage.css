@@ -1,0 +1,55 @@
+.jobs-page {
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-top: -2cm;
+    font-family: 'Arial', sans-serif;
+    
+  }
+  
+  .job-listings {
+    margin-top: 0px;
+  }
+  
+  .job-listing {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: peachpuff;
+  }
+  
+  h1 {
+    color: red;
+    margin-left: 0px;
+  }
+  
+  h2 {
+    color: orangered;
+  }
+  
+  .company {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .location {
+    color: #555;
+  }
+  
+  .description {
+    margin-top: 10px;
+  }
+  
+  .apply-button {
+    background-color:orangered;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .apply-button:hover {
+   cursor: pointer;
+  }

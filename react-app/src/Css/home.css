@@ -1,0 +1,78 @@
+.view-container{
+    /* display: flex; */
+    border : 2.5px solid whitesmoke;
+    /* background-image: linear-gradient(rgba(190, 219, 255, 0.781) 75%, rgb(255, 255, 255) 20%); */
+    background-image: linear-gradient(rgba(190, 213, 255, 0.697) 80%, rgb(255, 255, 255) 20%);
+    /* background-image: linear-gradient(rgba(109, 101, 186) 75%, rgba(207, 209, 248, 0.877) 20%); */
+    /* background-image: linear-gradient(rgba(109, 101, 186) 75%, rgb(255, 255, 255) 20%); */
+        /* opacity: 95%;  */
+    align-items:center;
+    width:22vw;
+    height: auto;
+    border-radius:5%;
+    padding:25px;
+    box-shadow: 10px 10px 5px 2px rgba(11, 29, 48, 0.5);
+    margin :10vh 0 0 5vh;
+    align-items: center;
+    text-align: center;
+    font-family: 'Cormorant', serif;  
+    /* background-color: aqua; */
+    /* flex-wrap: wrap; */
+}
+.main{
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* font-family: 'Cinzel', serif;   */
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Fuggles', cursive; */
+  /* font-family: 'Cormorant', serif;     */
+  /* font-family: 'Khand', sans-serif; */
+    color: rgb(0, 0, 0, 0.656);
+    background-color: rgba(166, 206, 251, 0.249);
+    height: 150vh;
+    text-shadow: 10px 30px 10px black 10px horizontal offset, 10px vertical offset, 5px blur radius, black color
+  
+}
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    /* cursor: pointer; */
+    background-color: transparent; /* Set a transparent background */
+  }
+  
+  a:hover {
+    color: #f9f9f9;
+    text-decoration: none;
+    /* border-bottom: 2px solid rgb(238, 238, 238); */
+    /* background-color: #fcfcfc; */
+  }
+  
+  a:focus {
+    text-decoration: none;
+    /* outline: none; */
+  }
+  
+  /* Apply styles for visited links */
+  a:visited {
+    text-decoration: none;
+    color: #fffc45f5; 
+  }
+  
+.view-container img{
+    /* background-color: white; */
+    width: auto;
+    height:12vh;
+}
+
+::-webkit-scrollbar {
+    display: flow-root8;
+}
+
+.viewvenue{
+    display :flex;
+    flex-wrap: wrap;
+    
+}

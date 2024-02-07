@@ -1,0 +1,25 @@
+.typing-text-container {
+  overflow: hidden;
+}
+
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  font-family: 'Courier New', monospace;
+  font-size: 1.2em;
+  border-right: 0.1em solid #000;
+  padding-right: 2px;
+  animation: blink-caret 1.5s step-start infinite;
+  transition: border-right 0.5s ease, color 0.3s ease; /* Add a smooth transition to the border-right and color properties */
+}
+
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* Optional: Add hover effect */
+.typing-text:hover {
+  color: #FF0000; /* Change the color on hover */
+}
